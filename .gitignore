@@ -1,4 +1,42 @@
-/Fase01.exe
-/Fase03.exe
-/Fase04.exe
-/Fase05.exe
+# Arquivos compilados
+*.o
+*.obj
+*.out
+*.exe
+*.app
+
+# Bibliotecas
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Arquivos de build
+build/
+bin/
+Debug/
+Release/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Core dumps
+*.core
+
+# Arquivos de editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Makefile (opcional ignorar saída)
+Makefile.old
+
+# Dependendo do compilador
+*.dSYM/
